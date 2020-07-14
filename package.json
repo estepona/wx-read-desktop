@@ -1,0 +1,51 @@
+{
+  "name": "wx-read",
+  "description": "A simple Electron application for Weixin Read",
+  "version": "0.1.0",
+  "author": "Binghuan Zhang <esteponawondering@gmail.com>",
+  "repository": "https://github.com/estepona/wx-read-desktop",
+  "keywords": [
+    "wechat",
+    "weixin",
+    "read",
+    "electron",
+    "typescript"
+  ],
+  "main": "./tsout/main.js",
+  "build": {
+    "appId": "wx-read",
+    "productName": "wx-read",
+    "copyright": "Copyright © 2020- ${author}",
+    "directories": {
+      "buildResources": "build",
+      "output": "release",
+      "app": "."
+    },
+    "mac": {
+      "category": "public.app-category.entertainment",
+      "target": "dmg"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "npx eslint src/",
+    "start": "npm run build && electron ./tsout/main.js",
+    "pack": "npx electron-builder --mac",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.6.0",
+    "@typescript-eslint/parser": "^3.6.0",
+    "electron": "^9.0.4",
+    "electron-builder": "^22.7.0",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
+}

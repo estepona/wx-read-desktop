@@ -1,0 +1,16 @@
+# Dependency
+node_modules
+
+# Out
+out
+tsout
+
+# Distribute
+dist
+release
+
+# credential
+.env
+
+# misc
+.DS_Store
