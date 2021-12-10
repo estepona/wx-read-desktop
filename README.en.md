@@ -1,9 +1,9 @@
 <div align=center>
   <h1>Weixin Read Desktop</h1>
   <p>A minimal Weixin Read desktop client based on electron.js.</p>
-  <img src="https://img.shields.io/badge/typescript-3.9.5-lightBlue"/>
   <img src="https://img.shields.io/badge/electron-9.0.4-blue"/>
-  <img src="https://img.shields.io/badge/electron--builder-22.7.0-brightgreen"/>
+  <img src="https://img.shields.io/badge/typescript-3.9.5-blueviolet"/>
+  <img src="https://img.shields.io/badge/downloaded-170-brightgreen"/>
 </div>
 
 ![screenshot](./asset/app.png)
