@@ -1,14 +1,14 @@
 <div align=center>
   <h1>微信读书桌面版</h1>
   <p>一个极简版微信读书桌面客户端，基于electron.js</p>
-  <img src="https://img.shields.io/badge/electron-9.0.4-blue"/>
+  <img src="https://img.shields.io/badge/electron-11.5.0-blue"/>
   <img src="https://img.shields.io/badge/typescript-3.9.5-blueviolet"/>
   <img src="https://img.shields.io/badge/downloaded-170-brightgreen"/>
 </div>
 
 ![screenshot](./asset/app.png)
 
-**中文** | [EN](./README.en.md)
+**中文** | [English](./README.en.md)
 
 微信读书桌面版是一个基于 electron.js 的极简微信读书桌面客户端。它仅仅提供一个微信网页版的包装，与微信网页版功能全无二致，方便在多个浏览器页面开启时快速切换到微信读书。
 
