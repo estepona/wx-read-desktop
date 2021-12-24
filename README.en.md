@@ -3,7 +3,7 @@
   <p>A minimal Weixin Read desktop client based on electron.js.</p>
   <img src="https://img.shields.io/badge/electron-11.5.0-blue"/>
   <img src="https://img.shields.io/badge/typescript-3.9.5-blueviolet"/>
-  <img src="https://img.shields.io/badge/downloaded-170-brightgreen"/>
+  <img src="https://img.shields.io/badge/downloaded-209-brightgreen"/>
 </div>
 
 ![screenshot](./asset/app.png)
