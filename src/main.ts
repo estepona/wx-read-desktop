@@ -21,9 +21,11 @@ const createWindow = () => {
   const view = new BrowserView();
   mainWindow.setBrowserView(view);
 
-  view.setBounds({ x: 0, y: 0, width: 1280, height: 800 });
   view.setAutoResize({ width: true, height: true, horizontal: true, vertical: true });
   view.webContents.loadURL('https://weread.qq.com/');
+  view.webContents.on('did-finish-load', () => {
+    view.setBounds({ x: 0, y: 0, width: 1280, height: 800 });
+  });
 
   // Open the DevTools.
   process.env.NODE_ENV === 'dev' && mainWindow.webContents.openDevTools();
@@ -32,7 +34,7 @@ const createWindow = () => {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
-app.on('ready', () => {
+app.whenReady().then(() => {
   createWindow();
 
   app.on('activate', function () {
