@@ -6,10 +6,12 @@ dotenv.config();
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
+    title: 'wx-read',
+
     height: 800,
     width: 1280,
 
-    title: 'wx-read',
+    autoHideMenuBar: process.env.NODE_ENV === 'dev' ? false : true,
 
     webPreferences: {
       nodeIntegration: true,
