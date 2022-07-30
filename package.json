@@ -1,7 +1,7 @@
 {
   "name": "wx-read",
   "description": "A simple Electron application for Weixin Read",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Binghuan Zhang <esteponawondering@gmail.com>",
   "repository": "https://github.com/estepona/wx-read-desktop",
   "keywords": [
@@ -13,9 +13,9 @@
   ],
   "main": "./tsout/main.js",
   "build": {
-    "appId": "wx-read",
+    "appId": "com.electron.wx-read",
     "productName": "wx-read",
-    "copyright": "Copyright © 2020- ${author}",
+    "copyright": "Copyright © 2022 - ${author}",
     "directories": {
       "buildResources": "build",
       "output": "release",
