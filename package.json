@@ -1,7 +1,7 @@
 {
   "name": "wx-read",
   "description": "A simple Electron application for Weixin Read",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "author": "Binghuan Zhang <esteponawondering@gmail.com>",
   "repository": "https://github.com/estepona/wx-read-desktop",
   "keywords": [
@@ -13,9 +13,9 @@
   ],
   "main": "./tsout/main.js",
   "build": {
-    "appId": "wx-read",
+    "appId": "com.electron.wx-read",
     "productName": "wx-read",
-    "copyright": "Copyright © 2020- ${author}",
+    "copyright": "Copyright © 2022 - ${author}",
     "directories": {
       "buildResources": "build",
       "output": "release",
@@ -38,16 +38,16 @@
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
     "ansi-regex": ">=5.0.1",
-    "electron": "^11.5.0",
-    "electron-builder": "^22.7.0",
+    "electron": "^19.0.10",
+    "electron-builder": "^23.1.0",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "ini": "^1.3.6",
+    "ini": "^3.0.0",
     "prettier": "^2.0.5",
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "dotenv": "^8.2.0"
+    "dotenv": "^16.0.1"
   }
 }
