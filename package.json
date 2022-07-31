@@ -32,7 +32,8 @@
     "lint": "npx eslint src/",
     "start": "npm run build && electron ./tsout/main.js",
     "pack-win": "npm run build && npx electron-builder -w",
-    "pack-mac": "npm run build && npx electron-builder -m"
+    "pack-mac": "npm run build && npx electron-builder -m",
+    "pack-mas": "npm run build && npx electron-builder -m --arch x64"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.0",
