@@ -18,14 +18,7 @@ const createWindow = () => {
     },
   });
 
-  const view = new BrowserView();
-  mainWindow.setBrowserView(view);
-
-  view.setAutoResize({ width: true, height: true, horizontal: true, vertical: true });
-  view.webContents.loadURL('https://weread.qq.com/');
-  view.webContents.on('did-finish-load', () => {
-    view.setBounds({ x: 0, y: 0, width: 1280, height: 800 });
-  });
+  mainWindow.loadURL('https://weread.qq.com/');
 
   // Open the DevTools.
   process.env.NODE_ENV === 'dev' && mainWindow.webContents.openDevTools();
