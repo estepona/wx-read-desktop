@@ -1,7 +1,7 @@
 {
   "name": "wx-read",
   "description": "A simple Electron application for Weixin Read",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Binghuan Zhang <esteponawondering@gmail.com>",
   "repository": "https://github.com/estepona/wx-read-desktop",
   "keywords": [
@@ -32,7 +32,8 @@
     "lint": "npx eslint src/",
     "start": "npm run build && electron ./tsout/main.js",
     "pack-win": "npm run build && npx electron-builder -w",
-    "pack-mac": "npm run build && npx electron-builder -m"
+    "pack-mac": "npm run build && npx electron-builder -m --x64",
+    "pack-mas": "npm run build && npx electron-builder -m --arm64"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.6.0",
