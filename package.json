@@ -39,7 +39,7 @@
     "@typescript-eslint/eslint-plugin": "^3.6.0",
     "@typescript-eslint/parser": "^3.6.0",
     "ansi-regex": ">=5.0.1",
-    "electron": "^19.0.10",
+    "electron": "^19.0.11",
     "electron-builder": "^23.1.0",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
