@@ -1,7 +1,7 @@
 <div align=center>
   <h1>Wechat Read Desktop</h1>
   <p>A minimal Weixin Read desktop client based on electron.js.</p>
-  <img src="https://img.shields.io/badge/electron-19.0.10-blue"/>
+  <img src="https://img.shields.io/badge/electron-22.0.3-blue"/>
   <img src="https://img.shields.io/badge/typescript-3.9.5-blueviolet"/>
   <img src="https://img.shields.io/badge/downloaded-523-brightgreen"/>
 </div>
