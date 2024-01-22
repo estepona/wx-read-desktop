@@ -2,13 +2,10 @@
   "files.autoSave": "afterDelay",
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "editor.tabSize": 2,
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "typescript"],
   "[javascript]": {
     "editor.formatOnSave": true
   },
@@ -21,10 +18,5 @@
   "[css]": {
     "editor.formatOnSave": true
   },
-  "cSpell.words": [
-    "douban",
-    "menu",
-    "selected",
-    "submenu"
-  ]
+  "cSpell.words": ["douban", "menu", "selected", "submenu"]
 }
