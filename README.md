@@ -1,8 +1,8 @@
 <div align=center>
   <h1>微信读书桌面版</h1>
   <p>一个极简版微信读书桌面客户端，基于electron.js</p>
-  <img src="https://img.shields.io/badge/electron-22.0.3-blue"/>
-  <img src="https://img.shields.io/badge/typescript-3.9.5-blueviolet"/>
+  <img src="https://img.shields.io/badge/electron-22.3.27-blue"/>
+  <img src="https://img.shields.io/badge/typescript-3.9.10-blueviolet"/>
   <img src="https://img.shields.io/badge/downloaded-5500-brightgreen"/>
 </div>
 

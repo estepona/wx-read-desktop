@@ -1,7 +1,7 @@
 {
   "name": "wx-read",
   "description": "A simple Electron application for Weixin Read",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "Binghuan Zhang <esteponawondering@gmail.com>",
   "repository": "https://github.com/estepona/wx-read-desktop",
   "keywords": [
@@ -40,7 +40,7 @@
     "@typescript-eslint/parser": "^3.6.0",
     "ansi-regex": ">=5.0.1",
     "electron": "^22.0.3",
-    "electron-builder": "^23.6.0",
+    "electron-builder": "^25.0.5",
     "eslint": "^7.4.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
