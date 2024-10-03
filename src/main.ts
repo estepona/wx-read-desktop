@@ -6,7 +6,7 @@ dotenv.config();
 const createWindow = () => {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    title: 'wx-read',
+    title: `wx-read-desktop ${process.env.npm_package_version}`,
 
     height: 800,
     width: 1280,
