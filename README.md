@@ -24,6 +24,10 @@
 
 [张秉寰](https://github.com/estepona) - esteponawondering@gmail.com
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=estepona/wx-read-desktop&type=Date)](https://www.star-history.com/#estepona/wx-read-desktop&Date)
+
 ## LICENSE
 
 MIT
