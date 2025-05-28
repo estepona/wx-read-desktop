@@ -24,6 +24,10 @@ Thanks to the Wechat Read Team for building such a great product. As a reader, I
 
 [Binghuan Zhang](https://github.com/estepona) - esteponawondering@gmail.com
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=estepona/wx-read-desktop&type=Date)](https://www.star-history.com/#estepona/wx-read-desktop&Date)
+
 ## LICENSE
 
 MIT
